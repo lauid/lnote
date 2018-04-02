@@ -1,7 +1,8 @@
 ---
 title: su指定用户执行命令
 date: 2017-08-31 11:09:42
-tags:
+tags: crontab
+categories: 运维
 ---
 
 ## 命令行模式下

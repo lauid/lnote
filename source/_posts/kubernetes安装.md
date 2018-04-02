@@ -2,6 +2,7 @@
 title: kubernetes安装
 date: 2017-08-04 17:53:20
 tags: kubernetes
+categories: 运维
 ---
 
 ## 安装minikube

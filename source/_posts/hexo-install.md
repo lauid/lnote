@@ -17,6 +17,7 @@ hexo publish
 
 ## hexo d
 hexo deploy#部署
+<!---more-->
 
 ## hexo clean
 清除缓存 网页正常情况下可以忽略此条命令

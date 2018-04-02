@@ -21,3 +21,41 @@ tags: blog
 	hexo server -s #静态模式
 	hexo server -p 5000 #更改端口
 	hexo server -i 192.168.1.1 #自定义 IP
+
+<!--more-->
+
+```
+	tags:
+	  - tag1
+	  - tag2
+	categories: xxx
+```
+冒号后面要有空格
+应该在 ---之上，---下面是页面内容
+令：要添加tags和categories页面；且主题的配置文件和站点的配置文件tags和categories的注释要打开
+
+- 添加标签
+hexo new page tags
+确认站点配置文件里有tag_dir: tags
+确认主题配置文件里有tags: /tags
+编辑站点的source/tags/index.md，添加
+
+```
+title: tags
+date: 2015-10-20 06:49:50
+type: "tags"
+comments: false
+```
+
+- 添加分类
+hexo new page categories
+确认站点配置文件里有category_dir: categories
+确认主题配置文件里有categories: /categories
+编辑站点的source/categories/index.md，添加
+
+```
+title: categories
+date: 2015-10-20 06:49:50
+type: "categories"
+comments: false
+```
