@@ -11,6 +11,9 @@ codis-server-2.x做master，codis-server-3.x做slave；
 
 <!--more-->
 
+![](/images/codis-image.png)
+
+
 ### salve日志
 
 ```
@@ -69,3 +72,4 @@ keys-expires主从相等说明是没问题的。
 - https://github.com/CodisLabs/codis/issues/645
 - https://github.com/CodisLabs/redis-port/issues/35
 - redis设计与实现
+
