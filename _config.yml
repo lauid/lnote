@@ -3,9 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 开发那点事儿 
+title: Runnable
 subtitle: strong to refuse
-description: lanmp, ELK, go, python, vue, 分布式，k8s, docker, CI/CD
+description: lanmp, ELK, go, python, vue, 分布式, k8s, docker, CI/CD
+signature: lanmp, ELK, go, python, vue, 分布式, k8s, docker, CI/CD
 author: laugh
 language: zh-Hans
 timezone:

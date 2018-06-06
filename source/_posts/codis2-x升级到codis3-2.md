@@ -92,8 +92,10 @@ nohup /usr/local/codis3.2/bin/codis-proxy --ncpu=2 --config=/home/config/codis3.
 codis-proxy启动后，处于waiting状态，监听proxy_addr地址，但是不会accept连接，添加到集群并完成集群状态的同步，才能改变状态为online。添加的方法有以下两种：
 第一种：通过codis-fe添加，通过Add Proxy按钮，将admin_addr加入到集群中，如下图（具体操作要等到后面codis-fe启动后才可以）：
 第二种：通过codis-admin命令行工具添加，方法如下（添加3个proxy）：
-/usr/local/codis3.2/bin/codis-admin --dashboard=127.0.0.1:18080 --create-proxy -x 127.0.0.1:11080
+```
+/usr/local/codis3.2/bin/codis-admin --dashboard=127.0.0.1:18080 --create-proxy --addr 127.0.0.1:11080
 /usr/local/codis3.2/bin/codis-admin --dashboard=127.0.0.1:18080 --create-proxy -x 127.0.0.1:11081
+```
 其中–dashboard需要指定codis-dashboard的管理地址，–create-proxy指定为和codis-proxy的admin_addr地址,。添加过程中，codis-dashboard会完成如下一系列动作：
 1）获取proxy信息，对集群name以及auth进行验证，并将其信息写入到外部存储中；
 2）同步slots状态；
