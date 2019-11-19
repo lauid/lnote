@@ -18,3 +18,8 @@ make install
 
 
 git clone https://github.com/preinheimer/xhprof.git
+
+
+nginx配置
+fastcgi_param PHP_VALUE "auto_prepend_file=/home/xhprof/external/header.php";
+

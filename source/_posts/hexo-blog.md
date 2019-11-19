@@ -22,6 +22,20 @@ tags: blog
 	hexo server -p 5000 #更改端口
 	hexo server -i 192.168.1.1 #自定义 IP
 
+- 插件
+
+```
+npm install hexo-server --save
+npm install hexo-admin --save
+npm install hexo-generator-archive --save
+npm install hexo-generator-feed --save
+npm install hexo-generator-search --save
+npm install hexo-generator-tag --save
+npm install hexo-deployer-git --save
+npm install hexo-generator-sitemap --save
+
+```
+
 <!--more-->
 
 ```
