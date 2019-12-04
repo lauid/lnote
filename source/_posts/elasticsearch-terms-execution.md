@@ -47,6 +47,6 @@ POST /goods_index/_search
 ```
 
 ps. 
+- https://www.elastic.co/guide/cn/elasticsearch/guide/current/_finding_multiple_exact_values.html
 - https://discuss.elastic.co/t/is-there-an-alternative-solution-to-terms-execution-and-on-es-2-x/41089
-
 - https://github.com/elastic/elasticsearch/issues/1568
