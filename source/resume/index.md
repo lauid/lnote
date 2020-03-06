@@ -26,7 +26,7 @@ date: 2018-06-29 09:39:16
 
 •	邮件: lgh.eng@qq.com	 
 •	QQ: 308938969
-•	手机: 151 8830 9961
+•	手机: 18137371382
 •	GitHub: https://github.com/liugaohua
 
 #### 教育经历

@@ -15,6 +15,7 @@ NOTE1:
 (没有唯一键，则只能在desitination上直接修改，而指定--sync-to-master and/or –replicate时只能在主库上修改)，
 如果sync主从时没有指定--replicate或者--sync-to-master则所有修改都在从库上执行(不论表上是否有唯一键)
 
+<!--more-->
 
 #### 使用示例
 #### sync两个独立数据库(非主从)
