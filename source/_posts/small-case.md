@@ -26,6 +26,9 @@ sh-keygen -y -f <path/to/private_key> > <path/to/public_key>
 -y Read private key file and print public key
 -y 的意思是读取私钥并将公钥打印出来
 
+#### 生成pem格式的create RSA private key
+ssh-keygen -m PEM -t rsa -b 4096 -C "dep1@example.com" -f dep1.pem
+
 #### 用户相关
 
 修改用户sh
@@ -98,6 +101,3 @@ dpkg -i --instdir=/dest/dir/path some.deb
 ps aux | sort -k3nr | head -n 10
 - 或查看占用内存最高的10个进程
 ps aux | sort -k4nr | head -n 10　　
-
-#### 生成pem格式的create RSA private key
-ssh-keygen -m PEM -t rsa -b 4096 -C "dep1@example.com" -f dep1.pem
