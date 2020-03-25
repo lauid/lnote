@@ -22,6 +22,15 @@ CREATE TABLE NAME( name VARCHAR(10) BINARY);
 
 #### 2、 在SQL语句中实现 SELECT * FROM TABLE NAME WHERE BINARY name='Clip';
 
+推荐使用
+
+select * from pet where name = binary 'whistler';
+这样可以保证当前字段的索引依然有效，而
+
+select * from pet where binary name = 'whistler';
+会使索引失效。
+
+
 #### 3、 设置字符集：
 
 utf8_general_ci --不区分大小写
